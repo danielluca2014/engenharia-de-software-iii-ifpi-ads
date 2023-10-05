@@ -1,6 +1,7 @@
-2. A classe Calculadora abaixo possui o método calcular com possibilidade de crescer “infinitamente”, ferido ao princípio Open Closed (OCP): import java.util.List;
-
+2. A classe Calculadora abaixo possui o método calcular com possibilidade de crescer “infinitamente”, ferido ao princípio Open Closed (OCP):
+   
 ```java
+import java.util.List;
 public class Calculadora {
     private final double a;
     private final double b;
