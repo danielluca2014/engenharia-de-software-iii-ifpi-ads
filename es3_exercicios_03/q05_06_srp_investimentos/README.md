@@ -108,3 +108,32 @@ class Transacao {
 ```
 Com base nas implementações, proponha a codificação dos métodos que ferem o SRP e segregue tais alterações/responsabilidades em métodos de 3 classes:
 ContaCorrenteService, InvestimentoService e TransacaoService.
+
+6. Considerando ainda as classes anteriores, a classe abaixo fere o OCP:
+   
+```java
+class AuditoriaFinanceiraService {
+      public void executar(List<ContaCorrente> contas,
+                          List<Investimento> investimentos,
+                          List<Transacao> transacoes) {
+         // Auditoria para Conta Corrente
+         for(ContaCorrente conta : contas) {
+             // Lógica de auditoria para Conta Corrente...
+         }
+
+
+         // Auditoria para Investimento
+         for(Investimento investimento : investimentos) {
+             // Lógica de auditoria para Investimento...
+         }
+
+
+         // Auditoria para Transacao
+         for(Transacao transacao : transacoes) {
+             // Lógica de auditoria para Transacao...
+         }
+     }
+}
+```
+Implemente de forma livre as lógicas de auditorias das 3 classes. Refatore posteriormente a implementação com o que for necessário para que seja passada apenas uma lista de “auditáveis” no método executar, deixando assim a classe de acordo com o OCP.
+
