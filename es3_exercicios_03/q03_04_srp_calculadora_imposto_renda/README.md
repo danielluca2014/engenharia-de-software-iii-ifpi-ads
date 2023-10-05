@@ -1,8 +1,8 @@
 3. Considere a classe abaixo:
 
+```java
 import java.util.List;
 
-```java
 class ImpostoDeRenda {
     private String cpfContribuinte;
     private List<Double> rendimentos;
