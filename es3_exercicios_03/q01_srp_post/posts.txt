@@ -1,0 +1,12 @@
+ID: 1
+Texto: Bom dia.
+Autor: Daniel Luca
+Data: Thu Oct 05 01:25:55 BRT 2023
+Quantidade de Likes: 0
+
+ID: 2
+Texto: Boa noite.
+Autor: Daniel Luca
+Data: Thu Oct 05 01:25:55 BRT 2023
+Quantidade de Likes: 0
+
